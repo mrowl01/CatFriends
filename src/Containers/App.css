@@ -1,0 +1,11 @@
+body{
+	background:black;
+	background:linear-gradient(to right, rgb(38, 151, 174), rgb(2, 3, 51));
+	color:white;
+}
+h1{
+	font-family:'Cool jazz';
+	font-weight:normal;
+	font-size:80px;
+	color: rgb(30,20,60);
+}
