@@ -1,3 +1,8 @@
+-------------------- Cat/Robot Friends --------------------<br/>
+Uses an API to get random robot images and an API to get contact names of fake users. Allows you to go through the list of fake users by entering a name. It will sort through the users until your desired name is found or not found. Will change to cat pictures at some point in time. 
+-------------------- Cat/Robot Friends  --------------------<br/>
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
