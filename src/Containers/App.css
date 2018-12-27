@@ -4,8 +4,9 @@ body{
 	color:white;
 }
 h1{
+	font-display:swap;
 	font-family:'Cool jazz';
 	font-weight:normal;
-	font-size:80px;
+	font-size:80px!important;
 	color: rgb(30,20,60);
 }

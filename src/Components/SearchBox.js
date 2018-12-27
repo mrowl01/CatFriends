@@ -8,6 +8,7 @@ class SearchBox extends Component {
 		return (
 			<div className ='pa2'>
 				<input className = "pa3 ba b--blue bg-lightest-blue searchBar"
+				aria-label = 'Search Robots'
 				type =' search' 
 				placeholder = "Search" 
 				onChange = {searchChange}
