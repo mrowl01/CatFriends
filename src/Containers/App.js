@@ -4,6 +4,7 @@ import {robots} from '../robots';
 import SearchBox from '../Components/SearchBox.js';
 import Scroll  from '../Components/Scroll';
 import ErrorBoundary from '../Components/ErrorBoundary';
+import Header from '../Components/Header.js';
 import {setSearchField,requestRobots} from '../actions';
 import {connect} from 'react-redux';
 
@@ -42,7 +43,7 @@ class App extends Component {
 		:
 		(
 			<div className = 'tc'>
-				<h1>RoboFriends</h1>
+				<Header/>
 				<SearchBox searchChange={onSearchChange} />
 				<Scroll>
 					<ErrorBoundary>
